@@ -25,3 +25,19 @@ padding: 0px 10px;
 from { transform: translateX(0); }
 to { transform: translateX(-50%); }
 }
+
+@media (max-width: 768px) {
+    .separator-text {
+        padding: 10px 0;
+    }
+
+    .separator-container span {
+        font-size: 100px;
+        padding: 0px 5px;
+    }
+
+    @keyframes marquee {
+        from { transform: translateX(0); }
+        to { transform: translateX(-100%); }
+    }
+}
